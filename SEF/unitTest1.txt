@@ -1,0 +1,199 @@
+1)What is requirement analysis?Explain some elements of analysis model.
+
+Ans- Requirements analysis, also called requirements engineering,
+     is the process of determining user expectations for a new or modified product. 
+     These features, called requirements, must be quantifiable, relevant and detailed.
+     In software engineering, such requirements are often called functional specifications.
+
+     The elements are-
+Data Dictionary: 
+It is a repository that consists of a description of all data objects used or produced by the software. It stores the collection of data present in the software. It is a very crucial element of the analysis model. It acts as a centralized repository and also helps in modeling data objects defined during software requirements. 
+ 
+Entity Relationship Diagram (ERD): 
+It depicts the relationship between data objects and is used in conducting data modeling activities. The attributes of each object in the Entity-Relationship Diagram can be described using Data object description. It provides the basis for activity related to data design. 
+ 
+Data Flow Diagram (DFD): 
+It depicts the functions that transform data flow and it also shows how data is transformed when moving from input to output. It provides the additional information which is used during the analysis of the information domain and serves as a basis for the modeling of function. It also enables the engineer to develop models of functional and information domains at the same time. 
+ 
+State Transition Diagram: 
+It shows various modes of behavior (states) of the system and also shows the transitions from one state to another state in the system. It also provides the details of how the system behaves due to the consequences of external events. It represents the behavior of a system by presenting its states and the events that cause the system to change state. It also describes what actions are taken due to the occurrence of a particular event. 
+ 
+Process Specification: 
+It stores the description of each function present in the data flow diagram. It describes the input to a function, the algorithm that is applied for the transformation of input, and the output that is produced. It also shows regulations and barriers imposed on the performance characteristics that are applicable to the process and layout constraints that could influence the way in which the process will be implemented. 
+ 
+Control Specification: 
+It stores additional information about the control aspects of the software. It is used to indicate how the software behaves when an event occurs and which processes are invoked due to the occurrence of the event. It also provides the details of the processes which are executed to manage events. 
+ 
+Data Object Description: 
+It stores and provides complete knowledge about a data object present and used in the software. It also gives us the details of attributes of the data object present in the Entity Relationship Diagram. Hence, it incorporates all the data objects and their attributes. 
+ 
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+A line of code (LOC) is any line of text in a code that is not a comment or blank line, and also header lines, in any case of the number of statements 
+or fragments of statements on the line. LOC clearly consists of all lines containing the declaration of any variable, and executable and non-executable statements. 
+As Lines of Code (LOC) only counts the volume of code, you can only use it to compare or estimate projects that use the same language and are coded using the same coding standards. 
+
+-----------------------------------------------------------------------------------------------------------------------
+
+2)What are the disadvantages of LOC based estimation.Explain the function point metric of software project estimation.
+
+Ans- It is defined on code. For example it cannot measure the size of specification.
+     It characterise only one specific view of size, namely length, it takes no account of functionality or complexity.
+     Bad software design may cause excessive line of code.
+     It is language dependent.
+     Users cannot easly understand it. 
+
+----------------------------------------------------------------------------------------------------------------------
+
+3) What is software quality standard for a software?Explain the steps of ISO certification.
+
+Ans-   ISO/IEC 5055:2021 (which will be referred to as ISO 5055 hereafter) is an ISO standard for measuring the internal structure of a software product on four business-critical factors: 
+       Security, Reliability, Performance Efficiency, and Maintainability.
+       
+       1. Build a method of management
+Identify your key processes or company practices.
+Document procedures of employee participation.
+The papers are checked, accepted and circulated to those who need access to the results.
+       2.Implement the computer
+Ensure the operations are carried out as stated in the documents.
+Ensure the workers are adequately prepared for the duties they conduct.
+Establish efficient reporting mechanisms to cover verification, checking, disciplinary steps, preventive measures, meetings for management analysis, target tracking, statistical methods, etc.
+Where appropriate, track the efficacy of your systems with the use of measurable evidence.
+Evaluate and take steps in the appropriate areas in order to change.
+       3. Verify the efficiency of your method
+Run an evaluation and review the enforcement and performance practices and programs. Observe, interview persons and look at archives of samples.
+Identify and report the management system’s strengths and weaknesses.
+If necessary, take corrective or preventive measures.
+       4. Your device registers
+For external registration, pick the relevant auditing body.
+To ensure it complies with the relevant standard, apply the management system documents for review.
+Prepare for an external auditor’s analysis to ensure that the specifications of the framework are being followed and that the management system is being applied efficiently.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4)  What is Software Quality assurance?
+    Describe in brief about software review with importance and need of different software review techniques you have learnt so far?
+
+Ans-   Software quality assurance (SQA) is a process that assures that all software engineering processes, methods, activities, and work items are monitored and comply with the defined standards. 
+       These defined standards could be one or a combination of any like ISO 9000, CMMI model, ISO15504, etc.
+         
+       Types of Software Reviews: 
+There are mainly 3 types of software reviews: 
+
+ 
+
+Software Peer Review: 
+Peer review is the process of assessing the technical content and quality of the product and it is usually conducted by the author of the work product along with some other developers. 
+Peer review is performed in order to examine or resolve the defects in the software, whose quality is also checked by other members of the team. 
+Peer Review has following types: 
+
+(i) Code Review: 
+Computer source code is examined in a systematic way. 
+ 
+(ii) Pair Programming: 
+It is a code review where two developers develop code together at the same platform. 
+ 
+(iii) Walkthrough: 
+Members of the development team is guided by author and other interested parties and the participants ask questions and make comments about defects. 
+ 
+(iv) Technical Review: 
+A team of highly qualified individuals examines the software product for its client’s use and identifies technical defects from specifications and standards. 
+ 
+(v) Inspection: 
+In inspection the reviewers follow a well-defined process to find defects. 
+ 
+Software Management Review: 
+Software Management Review evaluates the work status. In this section decisions regarding downstream activities are taken. 
+ 
+
+Software Audit Review: 
+Software Audit Review is a type of external review in which one or more critics, who are not a part of the development team,
+ organize an independent inspection of the software product and its processes to assess their compliance with stated specifications and standards. 
+This is done by managerial level people. 
+
+-Need and Importance of Review
+  Advantages of Software Review: 
+ 
+
+ Defects can be identified earlier stage of development (especially in formal review). 
+ 
+ Earlier inspection also reduces the maintenance cost of software. 
+ 
+ It can be used to train technical authors. 
+ 
+ It can be used to remove process inadequacies that encourage defects. 
+
+Informal review
+As the term suggests, these types of reviews will not have a trained moderator and it will not be a structured one.
+ The Minutes of meetings will not be recorded.
+
+Formal review
+Normally formal reviews will be lead by a trained moderator and it will be a structured one. 
+This includes more formal approaches like walkthroughs, technical reviews and inspections.
+
+Reviews increases the quality of the software products and helps in finding the defects and requirement gaps at the early stages of development. 
+This will reduce the amount of rework required and there by increases the efficiency.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+5) Describe the characterisctics of software?How spiral model is similar to object oriented system?
+Ans- The characteristics of software are- 
+
+1)Functionality-The functionality of software refers to its ability to perform and function according to design specification. 
+ In simple terms, software systems should function correctly, i.e. perform all the functions for which they are designed. 
+
+2)Usability (User-friendly)
+The user-friendliness of the software is characterized by its ease of use.
+ In other words, learning how to use the software should require less effort or time.
+3)Efficiency
+Essentially, it refers to the software’s ability to utilize human and system resources 
+such as time, effort, CPU, memory, computation power, network bandwidth, files, databases, etc., as effectively and efficiently as possible. 
+4)Flexibility 
+Software Flexibility refers to the ability of the software solution to adapt to potential or future changes in its requirements.
+5)Reliability
+The reliability of a software product describes the likelihood it will operate without failure over a specified period of time under certain conditions. 
+6)Maintainability
+Maintainability refers to how easily you can repair, improve and comprehend software code. In some ways, maintaining is similar to being flexible.
+Most of the time, developers are not the ones who maintain the software. Therefore, good documentation is crucial, which includes code documentation, interface definitions, etc. 
+7)Portability
+Software portability is a critical factor that cannot be ignored. Portability refers to the ability to use software in different environments. 
+8)Integrity
+There are multiple interpretations of software integrity. Some people tend to associate integrity with security, believing it is resistant to hacks and privacy violations.
+
+
+
+
+
+
+
+
+
+The examples of spiral model are that Microsoft used it to develop early versions of Windows. The Gantt chart software was also made using spiral model. 
+Game development is another industry who uses spiral model to develop the games.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+6)What are the quality factors that contribute to quality software?Explain SQA activities.
+Ans-  The quality factors are-
+1. Requirements and specifications: the more thought that is put into these things upfront, the more likely the software will have a coherent structure that will enable better quality.
+2. Good architecture and designs: I have often seen good developers struggle when the overall software's architecture and design have not been thought through in the beginning. This does not mean that you design the entire software upfront (that never happens), but you have to have a coherent architecture and principles that creates a strong foundation for the software.
+3. Peer review of code: this is a key part. I have typically seen that peer feedback (code reviews by buddies, pair programming, etc.) are a big part of ensuring quality of every line of code that gets written. Having good design and coding guidelines is a good way of ensuring maintainability of code.
+4. Good unit tests and functional tests that gives developers the tools to ensure that they are not regressing key functionality and adding new bugs, is the key. This is also a good reason to follow test driven development (TDD) methodologies.
+5. Testing: Engineers should test their code effectively before calling it done. They should run through key scenarios as well as key error conditions. They should also design their code with testability in mind to do this effectively.
+6. Dogfooding and Measuring defects: Use your software like your customers will! Also build monitoring and reporting in your software so that you can identify defects from the wild and use that information to correct defects quickly!
+7. Serviceability: assume that you will ship software with defects. Ensure that you can identify these defects and update the software with fixes once it is with customers!!
+-Activities
+
+1)Create an SQA Plan.
+2)Set Checkpoints. The team sets up specific checkpoints to evaluate the project’s activities during each stage. Checkpoints ensure regular quality inspection throughout the life cycle.
+3)Deploy Software Engineering Techniques. Software engineering techniques help software designers achieve high-quality specifications. For example, designers may gather information by using FAST (Functional Analysis System Technique) or interviews. Once the developers gather the needed info, they can create project estimation using techniques such as Functional Point (FP), Source Line of Codes (SLOC), or Work Breakdown Structure (WBS).
+4)Conduct Formal Technical Reviews. FTR’s evaluate the design and quality of the product’s prototype. These reviews involve meeting with the technical staff to talk about the software’s actual quality requirements and the prototype’s design quality.
+5)Include a Multi-Testing Strategy. In other words, don’t rely on a single testing approach. Instead, test the product from different angles with multiple testing strategies.
+6)Enforce Process Adherence. Designers must conform to the established processes and employ only defined procedures.
+7)Control Changes. Designers use a combination of automated tools and manual procedures to control changes. This stage includes evaluating the nature of any changes, validating change requests, and controlling the effects of the changes.
+8)Measure Change Impact. If the product has a defect, the team fixes it. As a result, something in the product has now changed. The QA team must determine how this new change impacts the overall product and if the change is compatible with the rest of the project.
+9)Perform Software Quality Assurance Audits. This audit compares the whole Software Development Life Cycle (SDLC) process to the established procedure. The audit also reveals non-compliance issues and ensures that the proper parties act on any reported QA issues.
+10)Maintain Reports and Records. Documentation is key to any quality assurance endeavor. Documentation includes audit results, change requests, test results, and review reports. The team should share this information with the stakeholders.
+11)Keep Good Relations. Ensure that the QA team and the development team are cooperating and getting along. Often, these teams develop cliquish or superior attitudes, and that sort of behavior must be discouraged.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
